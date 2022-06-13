@@ -11,34 +11,85 @@
     src: url(FiraSans-Medium.ttf);
 }
 
+/* #Tags */
+
 body {
     background-color: #FBF8F1;
-}
-hr {
-    border-style: none;
-    border-color: #E9DAC1;
-    border-width: 5px;
-    border-top-style: dotted;
-    width: 5%;
-}
-h1 {
-    color: #54BAB9;
-    font-family: FiraSansMedium;
-}
-h3 {
-    color: #54BAB9;
-    font-family: FiraSansReg;
-}
-p {
-    font-family: FiraSansThin;
-}
-table {
-    font-family: FiraSansThin;
-}
-a {
-    font-family: FiraSansThin;
+    margin-top: 0;
+    text-align: center;
 }
 
-form {
-    font-family: FiraSansThin;
+div {
+    background-color: #E9DAC1;
+    width: 100%;
+    height: 500px;
+}
+
+h1 {
+    font-family: FiraSansMedium;
+    margin: 0 auto 0 auto;
+    bottom: 100px
+}
+
+/* Classes */
+
+.top {
+    position: relative;
+    padding-top: 100px;
+    background-color: #98B4AA;
+    color: #E9DAC1;
+    font-family: FiraSansReg;
+}
+
+.middle {
+    background-color: #F7ECDE;
+    width: 100%;
+    height: 500px;
+    color: #98B4AA;
+    font-family: FiraSansReg;
+}
+
+.bottom {
+    background-color: #E9DAC1;
+    width: 100%;
+    height: 500px;
+    color: #98B4AA;;
+    font-family: FiraSansReg;
+}
+
+.top_cloud {
+    position: absolute;
+    right: 300px;
+}
+
+.bottom_cloud {
+    position: absolute;
+    left: 300px;
+    bottom: 300px;
+}
+
+.mountain {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.sub_text {
+    position: absolute;
+    top: 170px;
+    left: 0;
+    right: 0;
+}
+
+/* ID */
+
+#name {
+    position: absolute;
+    top: 150px;
+    left: 0;
+    right: 0;
 }
