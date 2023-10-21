@@ -15,14 +15,8 @@
 
 body {
     background-color: #FBF8F1;
-    margin-top: 0;
+    margin: 0;
     text-align: center;
-}
-
-div {
-    background-color: #E9DAC1;
-    width: 100%;
-    height: 500px;
 }
 
 h1 {
@@ -42,17 +36,18 @@ h1 {
 }
 
 .middle {
-    background-color: #F7ECDE;
-    width: 100%;
-    height: 500px;
+    /* position:relative; */
+    background-color: #E9DAC1;
+    /* height: 500px; */
     color: #98B4AA;
     font-family: FiraSansReg;
 }
 
 .bottom {
-    background-color: #E9DAC1;
-    width: 100%;
-    height: 500px;
+    /* position: relative; */
+    background-color: #F7ECDE;
+    
+    /* height: 500px; */
     color: #98B4AA;;
     font-family: FiraSansReg;
 }
@@ -60,36 +55,13 @@ h1 {
 .top_cloud {
     position: absolute;
     right: 300px;
+    top:40px;
 }
 
 .bottom_cloud {
     position: absolute;
-    left: 300px;
+    left: 250px;
     bottom: 300px;
 }
 
-.mountain {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.sub_text {
-    position: absolute;
-    top: 170px;
-    left: 0;
-    right: 0;
-}
-
 /* ID */
-
-#name {
-    position: absolute;
-    top: 150px;
-    left: 0;
-    right: 0;
-}
